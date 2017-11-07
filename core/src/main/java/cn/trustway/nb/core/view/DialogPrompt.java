@@ -45,6 +45,7 @@ public class DialogPrompt extends Dialog {
         private TextView textView_msg;
         private TextView textView_cancel;
         private CheckBox checkBox;
+        private View view;
 
         private View.OnClickListener onClickListener;
 
@@ -57,6 +58,7 @@ public class DialogPrompt extends Dialog {
         public Build(Context context) {
             this.context = context;
             dialogPrompt = new DialogPrompt(context);
+            view = initView();
         }
 
         /**
@@ -142,8 +144,9 @@ public class DialogPrompt extends Dialog {
          * 描述：初始化dialog
          */
         public void create() {
-            View inflate = initView();
-            dialogPrompt.setContentView(inflate);
+            dialogPrompt.show();
+
+            dialogPrompt.setContentView(view);
             dialogPrompt.setCancelable(true);
             Window window = dialogPrompt.getWindow();
             WindowManager.LayoutParams params;
