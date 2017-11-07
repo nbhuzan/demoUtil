@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_keyboard_key"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y55"
+        android:background="@drawable/button_white_grey"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/imageview_keyboard_next"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="@dimen/y110"
+        android:src="@drawable/button_del"
+        android:scaleType="center"/>
+</LinearLayout>

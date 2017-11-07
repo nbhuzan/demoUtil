@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/linearlayout_input_carnum_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y48"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/y14">
+
+            <ImageView
+                android:id="@+id/imageview_input_carnum_cancel"
+                android:layout_width="@dimen/x18"
+                android:layout_height="@dimen/y18"
+                android:scaleType="centerInside"
+                android:src="@drawable/dialog_menu_cancel"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/y48"
+                android:layout_weight="1"
+                android:background="@drawable/bg_border_b_white_grey"
+                android:gravity="center"
+                android:text="@string/input_carnum"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textview_input_carnum_ok"
+                android:layout_width="@dimen/x50"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textColor="@color/color_black_blue"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_input_carnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/y30"
+            android:paddingLeft="@dimen/x14"
+            android:paddingRight="@dimen/x14"
+            android:paddingTop="@dimen/y30">
+
+            <EditText
+                android:id="@+id/edittext_input_carnum_hphm1"
+                style="@style/carnum_editview"
+                android:layout_marginRight="@dimen/x10"/>
+
+            <EditText
+                android:id="@+id/edittext_alertdialog_input_carnum_hphm2"
+                style="@style/carnum_editview"
+                android:layout_marginRight="@dimen/x10"/>
+
+            <EditText
+                style="@style/carnum_editview"
+                android:layout_marginRight="@dimen/x10"/>
+
+            <EditText
+                style="@style/carnum_editview"
+                android:layout_marginRight="@dimen/x10"/>
+
+            <EditText
+                style="@style/carnum_editview"
+                android:layout_marginRight="@dimen/x10"/>
+
+            <EditText
+                style="@style/carnum_editview"
+                android:layout_marginRight="@dimen/x10"/>
+
+            <EditText
+                style="@style/carnum_editview"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y40"
+            android:background="@drawable/bg_border_b_white_grey"
+            android:gravity="right|center_vertical">
+
+            <TextView
+                android:id="@+id/textview_input_carnum_empty"
+                android:layout_width="@dimen/x50"
+                android:layout_height="match_parent"
+                android:gravity="center|right"
+                android:text="@string/empty"
+                android:paddingRight="@dimen/x10"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/grey"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleview_input_carnum_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:padding="1px"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_input_carnum_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+</RelativeLayout>

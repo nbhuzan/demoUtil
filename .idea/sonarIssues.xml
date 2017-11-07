@@ -53,12 +53,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/adapter/BaseRecycleAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/adapter/KeyBoardAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/util/BaseHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/util/FastClickHlper.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/util/FileUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/util/FootHolder.java">
           <value>
             <set />
           </value>
@@ -78,7 +98,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/DialogCarNumInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/DialogPrompt.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/color/color_black_blue.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_b_white_eaeaea.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_blue.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_circle_blue_30.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_grey.xml">
           <value>
             <set />
           </value>
@@ -88,12 +138,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/button_white_eaeaea.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_prompt.xml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_keyboard.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/layout_test.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/view_input_carnum.xml">
           <value>
             <set />
           </value>
