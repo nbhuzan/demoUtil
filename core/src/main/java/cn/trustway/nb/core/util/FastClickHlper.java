@@ -12,7 +12,6 @@ public class FastClickHlper {
         long time = System.currentTimeMillis();
         long CRITICAL = 500;
         if ( time - lastClickTime < CRITICAL) {
-            System.out.println("点快l");
             return true;
         }
         lastClickTime = time;

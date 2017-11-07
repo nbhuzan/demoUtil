@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../CdtTest/app/src/main/java/com/example/huzan/cdttest/MainActivity.java">
           <value>
             <set />
@@ -73,6 +78,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/DialogPrompt.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/layout_test.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/values/style.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/trusteayimageselect/build.gradle">
           <value>
             <set />
@@ -134,6 +154,56 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/service/ServiceViolationUpload.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/util/GlobalConfigUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/my/dataprotect/UnUploadForceInfoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/my/dataprotect/UnUploadNonVehicleInfoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/my/dataprotect/UnUploadSurveilInfoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/my/dataprotect/UnUploadVehicleInfoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/violation/BaseViolationDriverActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/violation/ForceStepActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/violation/ViolationNoticeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/values/strings.xml">
           <value>
             <set />
           </value>
