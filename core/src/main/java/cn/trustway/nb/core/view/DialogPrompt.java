@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -29,153 +28,159 @@ public class DialogPrompt extends Dialog {
     public static final int STYLE_WARNING = 1;
     public static final int STYLE_QUESTION = 2;
 
-    private Context context;
-    private ImageView imageView_icon;
-    private TextView textView_title;
-    private TextView textView_msg;
-    private TextView textView_cancel;
-    private CheckBox checkBox;
-
-    private View.OnClickListener onClickListener;
-
-    private int style;
-    private String title;
-    private String msg;
-
-    private boolean isCheck = true;
-
-    /**
-     * 创建时间：2017/8/21
-     * 创建者：huzan
-     * 描述：提示框样式
-     */
-    public void setStyle(int style) {
-        this.style = style;
-        if (style == STYLE_SUCCESS) {
-            imageView_icon.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_wc));
-        } else if (style == STYLE_WARNING) {
-            imageView_icon.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_jg));
-        } else if (style == STYLE_QUESTION) {
-            imageView_icon.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_tw));
-        }
-    }
-
-    /**
-     * 创建时间：2017/9/13
-     * 创建者：huzan
-     * 描述：是否需要先确认才能点击确认
-     */
-    public void setNeedCheck(boolean needCheck) {
-        if (needCheck) {
-            checkBox.setVisibility(View.VISIBLE);
-        }
-        this.isCheck = !needCheck;
-        setCanceledOnTouchOutside(!needCheck);
-    }
-
-    /**
-     * 创建时间：2017/8/21
-     * 创建者：huzan
-     * 描述：设置提示标题
-     */
-    public void setTitle(String title) {
-        this.title = title;
-        textView_title.setText(title);
-    }
-
-    /**
-     * 创建时间：2017/8/21
-     * 创建者：huzan
-     * 描述：内容补充文本
-     */
-    public void setMsg(String msg) {
-        this.msg = msg;
-        textView_msg.setText(msg);
-    }
-
-    /**
-     * 创建时间：2017/8/21
-     * 创建者：huzan
-     * 描述：确定回调
-     */
-    public void setOnClickListener(View.OnClickListener listener) {
-        this.onClickListener = listener;
-    }
-
-    /**
-     * 创建时间：2017/8/15
-     * 创建者：huzan
-     * 描述：是否有删除按钮
-     */
-    public void haveCancelButton(boolean haveCancelButton) {
-        if (haveCancelButton) {
-            textView_cancel.setVisibility(View.VISIBLE);
-        } else {
-            textView_cancel.setVisibility(View.GONE);
-        }
-    }
-
-
-    public DialogPrompt(@NonNull Context context) {
+    private DialogPrompt(@NonNull Context context) {
         this(context, 0);
-        this.context = context;
     }
 
 
-    public DialogPrompt(@NonNull Context context, @StyleRes int themeResId) {
+    private DialogPrompt(@NonNull Context context, @StyleRes int themeResId) {
         super(context, R.style.Fingerprint);
-        this.context = context;
-        initDialog();
     }
 
-    /**
-     * 创建时间：2017/8/10
-     * 创建者：huzan
-     * 描述：初始化dialog
-     */
-    private void initDialog() {
-        View inflate = initView();
-        setContentView(inflate);
-        setCancelable(true);
-        Window window = getWindow();
-        WindowManager.LayoutParams params;
-        if (window != null) {
-            window.setWindowAnimations(R.style.dialogPromptAnim);
-            params = window.getAttributes();
-            params.width = ViewGroup.LayoutParams.WRAP_CONTENT;
-            params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
-            params.gravity = Gravity.CENTER;
-            window.setAttributes(params);
+    public static class Build {
+        private DialogPrompt dialogPrompt;
+        private Context context;
+        private ImageView imageView_icon;
+        private TextView textView_title;
+        private TextView textView_msg;
+        private TextView textView_cancel;
+        private CheckBox checkBox;
+
+        private View.OnClickListener onClickListener;
+
+        private int style;
+        private String title;
+        private String msg;
+
+        private boolean isCheck = true;
+
+        public Build(Context context) {
+            this.context = context;
+            dialogPrompt = new DialogPrompt(context);
+            initDialog();
         }
-    }
 
-    @NonNull
-    private View initView() {
-        View inflate = LayoutInflater.from(context).inflate(R.layout.dialog_prompt, null);
-        imageView_icon = inflate.findViewById(R.id.imageview_prompt_icon);
-        textView_title = inflate.findViewById(R.id.textview_prompt_title);
-        textView_msg = inflate.findViewById(R.id.textview_prompt_msg);
-        TextView textView_ok = inflate.findViewById(R.id.textview_prompt_ok);
-        textView_cancel = inflate.findViewById(R.id.textview_prompt_cancel);
-        textView_cancel.setOnClickListener(v -> dismiss());
-        textView_cancel.setVisibility(View.GONE);
-        checkBox = inflate.findViewById(R.id.checkout_prompt_check);
-        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                isCheck = isChecked;
+        /**
+         * 创建时间：2017/8/21
+         * 创建者：huzan
+         * 描述：提示框样式
+         */
+        public Build setStyle(int style) {
+            this.style = style;
+            if (style == STYLE_SUCCESS) {
+                imageView_icon.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_wc));
+            } else if (style == STYLE_WARNING) {
+                imageView_icon.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_jg));
+            } else if (style == STYLE_QUESTION) {
+                imageView_icon.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_tw));
             }
-        });
+            return this;
+        }
 
-        textView_ok.setOnClickListener(v -> {
-            if(isCheck) {
-                dismiss();
-                if (onClickListener != null) {
-                    onClickListener.onClick(v);
+        /**
+         * 创建时间：2017/9/13
+         * 创建者：huzan
+         * 描述：是否需要先确认才能点击确认
+         */
+        public Build setNeedCheck(boolean needCheck) {
+            if (needCheck) {
+                checkBox.setVisibility(View.VISIBLE);
+            }
+            this.isCheck = !needCheck;
+            dialogPrompt.setCanceledOnTouchOutside(!needCheck);
+            return this;
+        }
+
+        /**
+         * 创建时间：2017/8/21
+         * 创建者：huzan
+         * 描述：设置提示标题
+         */
+        public Build setTitle(String title) {
+            this.title = title;
+            textView_title.setText(title);
+            return this;
+        }
+
+        /**
+         * 创建时间：2017/8/21
+         * 创建者：huzan
+         * 描述：内容补充文本
+         */
+        public Build setMsg(String msg) {
+            this.msg = msg;
+            textView_msg.setText(msg);
+            return this;
+        }
+
+        /**
+         * 创建时间：2017/8/21
+         * 创建者：huzan
+         * 描述：确定回调
+         */
+        public Build setOnClickListener(View.OnClickListener listener) {
+            this.onClickListener = listener;
+            return this;
+        }
+
+        /**
+         * 创建时间：2017/8/15
+         * 创建者：huzan
+         * 描述：是否有删除按钮
+         */
+        public Build haveCancelButton(boolean haveCancelButton) {
+            if (haveCancelButton) {
+                textView_cancel.setVisibility(View.VISIBLE);
+            } else {
+                textView_cancel.setVisibility(View.GONE);
+            }
+            return this;
+        }
+
+        /**
+         * 创建时间：2017/8/10
+         * 创建者：huzan
+         * 描述：初始化dialog
+         */
+        private void initDialog() {
+            View inflate = initView();
+            dialogPrompt.setContentView(inflate);
+            dialogPrompt.setCancelable(true);
+            Window window = dialogPrompt.getWindow();
+            WindowManager.LayoutParams params;
+            if (window != null) {
+                window.setWindowAnimations(R.style.dialogPromptAnim);
+                params = window.getAttributes();
+                params.width = ViewGroup.LayoutParams.WRAP_CONTENT;
+                params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
+                params.gravity = Gravity.CENTER;
+                window.setAttributes(params);
+            }
+        }
+
+        @NonNull
+        private View initView() {
+            View inflate = LayoutInflater.from(context).inflate(R.layout.dialog_prompt, null);
+            imageView_icon = inflate.findViewById(R.id.imageview_prompt_icon);
+            textView_title = inflate.findViewById(R.id.textview_prompt_title);
+            textView_msg = inflate.findViewById(R.id.textview_prompt_msg);
+            TextView textView_ok = inflate.findViewById(R.id.textview_prompt_ok);
+            textView_cancel = inflate.findViewById(R.id.textview_prompt_cancel);
+            textView_cancel.setOnClickListener(v -> dialogPrompt.dismiss());
+            textView_cancel.setVisibility(View.GONE);
+            checkBox = inflate.findViewById(R.id.checkout_prompt_check);
+            checkBox.setOnCheckedChangeListener((buttonView, isChecked) -> isCheck = isChecked);
+
+            textView_ok.setOnClickListener(v -> {
+                if (isCheck) {
+                    dialogPrompt.dismiss();
+                    if (onClickListener != null) {
+                        onClickListener.onClick(v);
+                    }
                 }
-            }
-        });
-        return inflate;
+            });
+            return inflate;
+        }
     }
 
 
