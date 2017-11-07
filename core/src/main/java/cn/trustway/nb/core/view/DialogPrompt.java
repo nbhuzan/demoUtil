@@ -57,7 +57,6 @@ public class DialogPrompt extends Dialog {
         public Build(Context context) {
             this.context = context;
             dialogPrompt = new DialogPrompt(context);
-            initDialog();
         }
 
         /**
@@ -142,7 +141,7 @@ public class DialogPrompt extends Dialog {
          * 创建者：huzan
          * 描述：初始化dialog
          */
-        private void initDialog() {
+        public void create() {
             View inflate = initView();
             dialogPrompt.setContentView(inflate);
             dialogPrompt.setCancelable(true);
