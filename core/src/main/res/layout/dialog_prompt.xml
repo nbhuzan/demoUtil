@@ -26,9 +26,9 @@
             android:id="@+id/textview_prompt_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
+            android:textColor="@android:color/black"
             tools:text="移动警务"
-            android:textSize="@dimen/sp16"/>
+            android:textSize="16sp"/>
         <TextView
             android:id="@+id/textview_prompt_msg"
             android:layout_width="wrap_content"
@@ -36,10 +36,10 @@
             android:layout_marginTop="@dimen/y10"
             android:layout_marginLeft="@dimen/y10"
             android:layout_marginRight="@dimen/y10"
-            android:textSize="@dimen/sp14"
+            android:textSize="14sp"
             android:maxLines="2"
             android:lineSpacingExtra="@dimen/y4"
-            tools:text="@string/msg_violation_submit_success"
+            tools:text="确定"
             android:ellipsize="end"/>
         <CheckBox
             android:visibility="gone"
@@ -48,12 +48,12 @@
             android:layout_height="wrap_content"
             android:text="请先确认"
             android:layout_marginTop="@dimen/y5"
-            android:textColor="@color/black"/>
+            android:textColor="@android:color/black"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="2px"
             android:layout_marginTop="@dimen/y10"
-            android:background="@color/color_eaeaea"/>
+            android:background="#eaeaea"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,24 +63,24 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="@dimen/y40"
-                android:text="@string/cancel"
+                android:text="取消"
                 android:gravity="center"
-                android:textColor="@color/colorHomeBg"
+                android:textColor="#0B7AFF"
                 android:background="@drawable/bg_circle_trans_10"/>
             <View
                 android:layout_width="2px"
                 android:layout_marginTop="@dimen/y5"
                 android:layout_marginBottom="@dimen/y5"
                 android:layout_height="match_parent"
-                android:background="@color/color_eaeaea"/>
+                android:background="#eaeaea"/>
             <TextView
                 android:id="@+id/textview_prompt_ok"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="@dimen/y40"
-                android:text="@string/ok"
+                android:text="确定"
                 android:gravity="center"
-                android:textColor="@color/colorHomeBg"
+                android:textColor="#0B7AFF"
                 android:background="@drawable/bg_circle_trans_10"/>
 
         </LinearLayout>
