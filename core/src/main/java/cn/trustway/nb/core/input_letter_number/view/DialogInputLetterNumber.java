@@ -1,5 +1,6 @@
 package cn.trustway.nb.core.input_letter_number.view;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
@@ -22,7 +23,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import cn.trustway.nb.core.R;
@@ -121,18 +121,8 @@ public class DialogInputLetterNumber extends Dialog {
                         editText.setText(String.valueOf(chars[i]));
                 }
             }
-            textView_empty.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    editText.setText("");
-                }
-            });
-            textView_change.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    adapterKey.setUpperCase(!adapterKey.isUpperCase());
-                }
-            });
+            textView_empty.setOnClickListener(v -> editText.setText(""));
+            textView_change.setOnClickListener(v -> adapterKey.setUpperCase(!adapterKey.isUpperCase()));
 
 
             textView_ok.setOnClickListener(v -> {
@@ -180,12 +170,8 @@ public class DialogInputLetterNumber extends Dialog {
          * 描述：初始化数字字母键盘数据
          */
         private List<String> initLetterData() {
-            List<String> tempList = initLetterList1();
-            if (tempList == null) {
-                tempList = new ArrayList<>();
-            }
 
-            return tempList;
+            return initLetterList1();
 
         }
 
@@ -274,6 +260,7 @@ public class DialogInputLetterNumber extends Dialog {
          * 创建者：huzan
          * 描述：设置选择的键盘数据
          */
+        @SuppressLint("SetTextI18n")
         private void setInput(String str) {
             editText.setText(editText.getText().toString() + str);
             editText.setSelection(editText.getText().length());
