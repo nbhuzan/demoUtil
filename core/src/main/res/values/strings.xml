@@ -3,4 +3,6 @@
     <string name="input_carnum">请输入车牌号</string>
     <string name="ok">确定</string>
     <string name="empty">清空</string>
+    <string name="idcard_jsz">身份证/驾驶证</string>
+    <string name="input">请输入</string>
 </resources>

@@ -19,5 +19,6 @@
         android:background="@android:color/white"
         android:layout_height="@dimen/y110"
         android:src="@drawable/button_del"
-        android:scaleType="centerInside"/>
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"/>
 </LinearLayout>

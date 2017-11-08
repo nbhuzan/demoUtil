@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="bottom"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y48"
+        android:background="@drawable/bg_border_b_white_grey"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearlayout_idcard_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/y14"
+            android:paddingRight="@dimen/y14">
+
+            <ImageView
+                android:layout_width="@dimen/x18"
+                android:layout_height="@dimen/y18"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dialog_menu_cancel"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_idcard_title"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y48"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/idcard_jsz"
+            android:textColor="@color/blue"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textview_idcard_ok"
+            android:layout_width="@dimen/x50"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/color_black_blue"
+            android:textSize="@dimen/sp16"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittext_idcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_b_white_grey"
+        android:gravity="center|left"
+        android:hint="@string/input"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/y30"
+        android:paddingLeft="@dimen/x14"
+        android:paddingRight="@dimen/x14"
+        android:maxLength="18"
+        android:maxLines="4"
+        android:paddingTop="@dimen/y30"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y40"
+        android:background="@drawable/bg_border_b_white_grey"
+        android:gravity="right|center_vertical">
+
+        <TextView
+            android:id="@+id/textview_idcard_empty"
+            android:layout_width="@dimen/x50"
+            android:layout_height="match_parent"
+            android:gravity="center|right"
+            android:text="@string/empty"
+            android:paddingRight="@dimen/x10"
+            android:textSize="@dimen/sp14"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview_idcard_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"/>
+</LinearLayout>

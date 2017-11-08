@@ -118,6 +118,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/DialogIdCardIdInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/DialogPrompt.java">
           <value>
             <set />
@@ -174,6 +179,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/view_input_carnum.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/view_input_idcard.xml">
           <value>
             <set />
           </value>
