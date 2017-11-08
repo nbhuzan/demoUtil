@@ -13,6 +13,7 @@ import java.util.List;
 
 import cn.trustway.nb.core.input_cardid.view.DialogIdCardIdInput;
 import cn.trustway.nb.core.input_carnum.view.DialogCarNumInput;
+import cn.trustway.nb.core.input_letter_number.view.DialogInputLetterNumber;
 import cn.trustway.nb.core.menu.model.MenuModel;
 import cn.trustway.nb.core.menu.util.MenuUtil;
 import cn.trustway.nb.core.menu.view.DialogMenu;
@@ -70,6 +71,7 @@ public class TestActivity extends Activity {
                 .setLastIdcard("123")
                 .setMustAll(true)
                 .setOnSubmitListener(idcard -> Toast.makeText(context, idcard, Toast.LENGTH_SHORT).show())
+                .setCanceledOnTouchOutside(true)
                 .create();
     }
 
@@ -106,6 +108,11 @@ public class TestActivity extends Activity {
 
     public void search(View v){
         startActivity(new Intent(this,SearchActivity.class));
+    }
+
+    public void letterNumber(View v){
+        new DialogInputLetterNumber.Build(context,"12")
+                .setOnSubmitListener(carNum -> Toast.makeText(context, carNum, Toast.LENGTH_SHORT).show()).create();
     }
 
 }

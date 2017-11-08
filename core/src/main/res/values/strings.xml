@@ -8,4 +8,5 @@
     <string name="input_key">请输入关键字</string>
     <string name="cancel">取消</string>
     <string name="menu">菜单</string>
+    <string name="letter_number">字母/数字</string>
 </resources>

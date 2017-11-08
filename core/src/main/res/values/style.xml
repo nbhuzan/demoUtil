@@ -28,7 +28,6 @@
         <item name="android:windowEnterAnimation">@anim/in_scale</item>
         <item name="android:windowExitAnimation">@anim/out_scale</item>
     </style>
-
     <!--号牌号码输入弹出框输入样式-->
     <style name="carnum_editview">
         <item name="android:gravity">center</item>
@@ -36,9 +35,8 @@
         <item name="android:layout_height">@dimen/y40</item>
         <item name="android:layout_weight">1</item>
         <item name="android:ems">1</item>
-        <item name="android:background">@drawable/btn_keyboard_key</item>
+        <item name="android:background">@drawable/btn_border_blue_grey</item>
     </style>
-    <!--号牌号码dialog进出样式-->
     <style name="carNumAnim" parent="android:Animation" mce_bogus="1">
         <item name="android:windowEnterAnimation">@anim/in_bottom</item>
         <item name="android:windowExitAnimation">@anim/out_bottom</item>

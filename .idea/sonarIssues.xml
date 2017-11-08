@@ -108,6 +108,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/input_cardid/view/DialogIdCardIdInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/input_letter_number/view/DialogInputLetterNumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/input_password/view/DialogInputPassword.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/menu/DialogMenuAdapter.java">
           <value>
             <set />
@@ -303,6 +318,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_input_carnum.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_input_letter_number.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_menu.xml">
           <value>
             <set />
@@ -379,6 +404,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/values/style.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/input_carnum/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/input_carnum/src/main/res/values/style.xml">
           <value>
             <set />
           </value>

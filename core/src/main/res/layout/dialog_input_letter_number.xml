@@ -14,15 +14,15 @@
 
 
         <LinearLayout
+            android:background="@drawable/bg_border_b_white_grey"
             android:layout_width="match_parent"
             android:layout_height="@dimen/y48"
-            android:background="@android:color/white"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingLeft="@dimen/y14">
 
             <ImageView
-                android:id="@+id/imageview_input_carnum_cancel"
+                android:id="@+id/imageview_letter_number_cancel"
                 android:layout_width="@dimen/x18"
                 android:layout_height="@dimen/y18"
                 android:scaleType="centerInside"
@@ -32,14 +32,13 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/y48"
                 android:layout_weight="1"
-                android:background="@drawable/bg_border_b_white_grey"
                 android:gravity="center"
-                android:text="@string/input_carnum"
+                android:text="@string/letter_number"
                 android:textColor="@color/blue"
                 android:textSize="16sp"/>
 
             <TextView
-                android:id="@+id/textview_input_carnum_ok"
+                android:id="@+id/textview_letter_number_ok"
                 android:layout_width="@dimen/x50"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -48,72 +47,48 @@
                 android:textSize="@dimen/sp16"/>
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/linearlayout_input_carnum"
+        <EditText
+            android:id="@+id/edittext_letter_number_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
-            android:gravity="center"
+            android:gravity="center|left"
             android:orientation="horizontal"
+            android:hint="@string/input"
             android:paddingBottom="@dimen/y30"
             android:paddingLeft="@dimen/x14"
             android:paddingRight="@dimen/x14"
-            android:paddingTop="@dimen/y30">
-
-            <EditText
-                android:id="@+id/edittext_input_carnum_hphm1"
-                style="@style/carnum_editview"
-                android:layout_marginRight="@dimen/x10"/>
-
-            <EditText
-                android:id="@+id/edittext_alertdialog_input_carnum_hphm2"
-                style="@style/carnum_editview"
-                android:layout_marginRight="@dimen/x10"/>
-
-            <EditText
-                style="@style/carnum_editview"
-                android:layout_marginRight="@dimen/x10"/>
-
-            <EditText
-                style="@style/carnum_editview"
-                android:layout_marginRight="@dimen/x10"/>
-
-            <EditText
-                style="@style/carnum_editview"
-                android:layout_marginRight="@dimen/x10"/>
-
-            <EditText
-                style="@style/carnum_editview"
-                android:layout_marginRight="@dimen/x10"/>
-
-            <EditText
-                style="@style/carnum_editview"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/y40"
-            android:background="@drawable/bg_border_b_white_grey"
-            android:gravity="right|center_vertical">
-
-            <TextView
-                android:id="@+id/textview_input_carnum_empty"
-                android:layout_width="@dimen/x50"
-                android:layout_height="match_parent"
-                android:gravity="center|right"
-                android:text="@string/empty"
-                android:paddingRight="@dimen/x10"
-                android:textSize="@dimen/sp14"/>
-        </LinearLayout>
+            android:paddingTop="@dimen/y30"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="2px"
             android:background="@color/grey"/>
 
-
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y40"
+            android:background="@android:color/white"
+            android:paddingLeft="@dimen/y14"
+            android:paddingRight="@dimen/y14">
+            <TextView
+                android:id="@+id/textView_letter_number_change"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_white_grey"
+                android:text="切换大小写"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/textView_letter_number_empty"
+                android:text="清空"
+                android:background="@drawable/btn_white_grey"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycleview_input_carnum_keyboard"
+            android:id="@+id/recycleview_letter_number_keyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/grey"
@@ -121,7 +96,7 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:id="@+id/relativelayout_input_carnum_prompt"
+        android:id="@+id/relativelayout_letter_number_prompt"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </RelativeLayout>

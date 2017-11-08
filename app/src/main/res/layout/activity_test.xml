@@ -41,8 +41,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="search"
-            android:text="搜索"
-            />
+            android:text="搜索"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="letterNumber"
+            android:text="字母数字键盘"/>
+
+
 
 
     </LinearLayout>

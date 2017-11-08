@@ -82,6 +82,11 @@ public class DialogIdCardIdInput extends Dialog {
             return this;
         }
 
+        public Build setCanceledOnTouchOutside(boolean isCancel){
+            dialogIdCardKeyBoard.setCanceledOnTouchOutside(isCancel);
+            return this;
+        }
+
         public void create() {
             dialogIdCardKeyBoard.show();
             dialogIdCardKeyBoard.setContentView(view);
