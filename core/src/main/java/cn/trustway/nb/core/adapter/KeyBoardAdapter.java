@@ -69,14 +69,16 @@ public class KeyBoardAdapter extends BaseRecycleAdapter<String> {
     @Override
     protected void bindYourViewHolder(BaseHolder holder, int pos) {
         String str = itemList.get(pos);
-        if(str.equals("移动警务")) {
+        if(str.equals("trustway")) {
             ImageView imageView_cancel = (ImageView) holder.getViewById(R.id.imageview_keyboard_next);
+
             holder.setText(R.id.textview_keyboard_key, null);
             holder.getViewById(R.id.textview_keyboard_key).setVisibility(View.GONE);
             imageView_cancel.setVisibility(View.VISIBLE);
             LinearLayout.LayoutParams layoutParams = (LinearLayout.LayoutParams) imageView_cancel.getLayoutParams();
             layoutParams.height = (int) (context.getResources().getDimension(R.dimen.y55)*cancelStyle);
             imageView_cancel.setLayoutParams(layoutParams);
+            imageView_cancel.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
             holder.getView().setOnClickListener(v -> {
                 if (onOtherKeyBoard != null) {
                     onOtherKeyBoard.onClick();

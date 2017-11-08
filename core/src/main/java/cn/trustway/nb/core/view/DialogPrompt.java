@@ -145,7 +145,6 @@ public class DialogPrompt extends Dialog {
          */
         public void create() {
             dialogPrompt.show();
-
             dialogPrompt.setContentView(view);
             dialogPrompt.setCancelable(true);
             Window window = dialogPrompt.getWindow();
