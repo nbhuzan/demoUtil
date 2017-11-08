@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.trustway.nb.core.search.view.ClickTextview
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textview_item_search_history"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/ic_search_search"
+    android:drawablePadding="@dimen/x10"
+    android:drawableRight="@drawable/ic_cancel_cancel"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/y40"
+    android:paddingLeft="@dimen/x14"
+    android:background="@android:color/white"
+    android:paddingRight="@dimen/x10"
+    android:text="1222121212"/>

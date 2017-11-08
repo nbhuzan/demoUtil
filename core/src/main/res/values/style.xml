@@ -47,4 +47,9 @@
     <style name="select" parent="@android:style/Widget.CompoundButton.CheckBox">
         <item name="android:button">@drawable/cb_select</item>
     </style>
+
+    <style name="searchAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/search_dialog_edit_in</item>
+        <item name="android:windowExitAnimation">@anim/search_dialog_edit_out</item>
+    </style>
 </resources>

@@ -38,7 +38,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/SearchActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/TestActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml">
           <value>
             <set />
           </value>
@@ -54,6 +69,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/build/intermediates/bundles/debug/res/layout/dialog_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/build/intermediates/bundles/debug/res/layout/dialog_search.xml">
           <value>
             <set />
           </value>
@@ -109,6 +129,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/model/MenuModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/search/adapter/SearchHistoryAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/search/adapter/SearchMenuAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/search/model/SearchModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/search/view/DialogSearch.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/search/view/Search.java">
           <value>
             <set />
           </value>
@@ -193,6 +238,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_b.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_b_white_eaeaea.xml">
           <value>
             <set />
@@ -218,12 +268,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_white_grey.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_white_t.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_circle_white_10.xml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_circle_white_grey_20.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/drawable/button_white_eaeaea.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/ic_monitor_cancel.xml">
           <value>
             <set />
           </value>
@@ -243,12 +313,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_search.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_dialog_menu.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_keyboard.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_search_history.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_search_menu.xml">
           <value>
             <set />
           </value>
@@ -273,7 +358,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/view_search_origin.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/values/attrs.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/values/strings.xml">
           <value>
             <set />
           </value>

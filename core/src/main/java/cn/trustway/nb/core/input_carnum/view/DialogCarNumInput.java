@@ -51,7 +51,7 @@ public class DialogCarNumInput extends Dialog {
         this(context, 0);
     }
 
-    private DialogCarNumInput(@NonNull Context context, @StyleRes int themeResId) {
+    public DialogCarNumInput(@NonNull Context context, @StyleRes int themeResId) {
         super(context, R.style.Fingerprint);
     }
 

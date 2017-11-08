@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearlayout_search_parent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_f7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittext_search_form"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/y10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_border_white_grey"
+            android:drawableLeft="@drawable/ic_search_search"
+            android:drawablePadding="@dimen/x10"
+            android:hint="@string/input_key"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/x5"
+            android:paddingLeft="@dimen/x10"
+            android:textSize="@dimen/sp14"
+            />
+
+        <TextView
+            android:id="@+id/textview_search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:paddingRight="@dimen/x14"
+            android:text="@string/cancel"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y60"
+        android:background="@drawable/bg_border_trans_t"
+        android:gravity="center"
+        android:text="搜索指定内容"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_search_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_trans_b"
+        android:paddingBottom="@dimen/y1"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_search_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y10"
+        android:background="@color/grey"/>
+</LinearLayout>
