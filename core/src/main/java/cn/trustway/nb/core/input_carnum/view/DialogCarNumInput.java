@@ -1,10 +1,11 @@
-package cn.trustway.nb.core.view;
+package cn.trustway.nb.core.input_carnum.view;
 
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Rect;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.annotation.StyleRes;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -27,9 +28,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.trustway.nb.core.R;
-import cn.trustway.nb.core.adapter.KeyBoardAdapter;
-import cn.trustway.nb.core.util.HiddenSoftInputUtil;
-import cn.trustway.nb.core.util.StringUtil;
+import cn.trustway.nb.core.base.adapter.KeyBoardAdapter;
+import cn.trustway.nb.core.base.util.HiddenSoftInputUtil;
+import cn.trustway.nb.core.base.util.StringUtil;
 
 /**
  * Created by huzan on 2017/8/2.
@@ -40,7 +41,9 @@ import cn.trustway.nb.core.util.StringUtil;
 public class DialogCarNumInput extends Dialog {
 
 
+    @NonNull
     private static String province = "京津冀鲁晋蒙辽吉黑沪苏浙皖闽赣豫鄂湘粤桂渝川贵云藏陕甘青琼新港澳台宁";
+    @NonNull
     private static String letter = "0123456789ABCDEFGHJKLMNPQRSTUVWXYZ";
 
 
@@ -63,6 +66,7 @@ public class DialogCarNumInput extends Dialog {
         private TextView textView_empty; //清空
         private ImageView imageView_cancel;//取消
         private RelativeLayout relativelayout_prompt;
+        @Nullable
         private TextView textView_prompt;
         private RelativeLayout.LayoutParams lpPrompt;
 
@@ -76,7 +80,7 @@ public class DialogCarNumInput extends Dialog {
 
         private OnSubmitListener onSubmitListener;//录入完获取车牌号的监听
 
-        public Build(Context context, String carNum) {
+        public Build(@NonNull Context context, String carNum) {
             this.context = context;
             this.carNum = carNum;
             dialogCarNumInput = new DialogCarNumInput(context);
@@ -84,11 +88,13 @@ public class DialogCarNumInput extends Dialog {
         }
 
 
+        @NonNull
         public Build setOnSubmitListener(OnSubmitListener onSubmitListener) {
             this.onSubmitListener = onSubmitListener;
             return this;
         }
 
+        @NonNull
         public Build setFzjg(String fzjg) {
             this.fzjg = fzjg;
             if (carNum == null || carNum.isEmpty()) {
@@ -118,7 +124,7 @@ public class DialogCarNumInput extends Dialog {
 
         private View initView() {
             LayoutInflater layoutInflater = LayoutInflater.from(context);
-            View inflate = layoutInflater.inflate(R.layout.view_input_carnum, null);
+            View inflate = layoutInflater.inflate(R.layout.dialog_input_carnum, null);
             textView_ok = inflate.findViewById(R.id.textview_input_carnum_ok);
             textView_empty = inflate.findViewById(R.id.textview_input_carnum_empty);
             imageView_cancel = inflate.findViewById(R.id.imageview_input_carnum_cancel);
@@ -199,7 +205,7 @@ public class DialogCarNumInput extends Dialog {
             return inflate;
         }
 
-        private void fillCarNum(String carNum) {
+        private void fillCarNum(@NonNull String carNum) {
             char[] chars = carNum.toCharArray();
             int charsLength = chars.length;
             for (int i = 0; i < charsLength; i++) {
@@ -249,6 +255,7 @@ public class DialogCarNumInput extends Dialog {
          * 创建者：huzan
          * 描述：初始化省份键盘数据
          */
+        @NonNull
         private List<String> initProvinceData() {
             List<String> tempList = initProvinceList();
             if (tempList == null) {
@@ -265,6 +272,7 @@ public class DialogCarNumInput extends Dialog {
          * 创建者：huzan
          * 描述：初始化数字字母键盘数据
          */
+        @NonNull
         private List<String> initLetterData() {
             List<String> tempList = initLetterList();
             if (tempList == null) {
@@ -291,7 +299,7 @@ public class DialogCarNumInput extends Dialog {
             recyclerView.setLayoutManager(new StaggeredGridLayoutManager(6, StaggeredGridLayoutManager.VERTICAL));
             recyclerView.addItemDecoration(new RecyclerView.ItemDecoration() {
                 @Override
-                public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
+                public void getItemOffsets(@NonNull Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
                     outRect.top = 1;
                     outRect.bottom = 1;
                     outRect.left = 1;
@@ -333,7 +341,7 @@ public class DialogCarNumInput extends Dialog {
 
             adapterKey.setOnKeyTouchListener(new KeyBoardAdapter.OnKeyTouchListener() {
                 @Override
-                public void onDown(View v, int pos) {
+                public void onDown(@NonNull View v, int pos) {
                     //key提示
                     positon = pos;
                     if (textView_prompt != null) {
@@ -402,6 +410,7 @@ public class DialogCarNumInput extends Dialog {
             }
         }
 
+        @NonNull
         private static List<String> initProvinceList() {
             String x = "鲁";
             x += province.replace("鲁", "");
@@ -409,6 +418,7 @@ public class DialogCarNumInput extends Dialog {
 
         }
 
+        @NonNull
         private static List<String> initLetterList() {
             String x = letter;
             return StringUtil.str2List(x);

@@ -1,5 +1,6 @@
-package cn.trustway.nb.core.util;
+package cn.trustway.nb.core.base.util;
 
+import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -18,7 +19,7 @@ public class FootHolder extends BaseHolder {
     private TextView textView_foot_load;  //上拉加载
     private TextView textView_foot_loaded;//到底了
 
-    public FootHolder(View itemView) {
+    public FootHolder(@NonNull View itemView) {
         super(itemView);
         this.itemView = itemView;
 //        relativeLayout_foot_parent = (RelativeLayout) itemView.findViewById(R.id.relativelayout_recycleview_foot_parent);

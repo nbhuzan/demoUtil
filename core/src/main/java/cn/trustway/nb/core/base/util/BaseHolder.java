@@ -1,10 +1,12 @@
-package cn.trustway.nb.core.util;
+package cn.trustway.nb.core.base.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -24,7 +26,7 @@ import java.io.File;
 public class BaseHolder extends RecyclerView.ViewHolder {
     View itemView;
 
-    public BaseHolder(View itemView) {
+    public BaseHolder(@NonNull View itemView) {
         super(itemView);
         this.itemView = itemView;
     }
@@ -42,7 +44,7 @@ public class BaseHolder extends RecyclerView.ViewHolder {
     }
 
 
-    public void setDrawableLeft(int viewId, Drawable drawable) {
+    public void setDrawableLeft(int viewId, @Nullable Drawable drawable) {
         if (drawable != null) {
             drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
         }
@@ -109,7 +111,7 @@ public class BaseHolder extends RecyclerView.ViewHolder {
         imageView.setImageBitmap(bitmap);
     }
 
-    public void setDrawableId(int viewId, int drawableId, Context context) {
+    public void setDrawableId(int viewId, int drawableId, @NonNull Context context) {
         if (drawableId != 0) {
             ImageView imageView;
             imageView = ((ImageView) itemView.findViewById(viewId));
@@ -118,7 +120,7 @@ public class BaseHolder extends RecyclerView.ViewHolder {
     }
 
 
-    public void setLocalImg(int viewId, String path) {
+    public void setLocalImg(int viewId, @NonNull String path) {
         ImageView imageView;
         imageView = ((ImageView) itemView.findViewById(viewId));
         imageView.setAdjustViewBounds(true);
@@ -138,7 +140,7 @@ public class BaseHolder extends RecyclerView.ViewHolder {
 //        });
     }
 
-    public void setLocalBackground(int viewId, String path) {
+    public void setLocalBackground(int viewId, @NonNull String path) {
         ImageView imageView;
         imageView = ((ImageView) itemView.findViewById(viewId));
         imageView.setAdjustViewBounds(true);

@@ -53,6 +53,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/build/intermediates/bundles/debug/res/layout/dialog_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/FastClickUtil.java">
           <value>
             <set />
@@ -63,7 +68,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/adapter/DialogMenuAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/adapter/KeyBoardAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/util/StringUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/view/TrustwayRecycleView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/menu/DialogMenuAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/menu/adapter/DialogMenuAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/menu/util/MenuUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/menu/view/DialogMenu.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/model/MenuModel.java">
           <value>
             <set />
           </value>
@@ -123,7 +168,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/DialogMenu.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/DialogPrompt.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/TrustwayRecycleView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/view/ViewSearch.java">
           <value>
             <set />
           </value>
@@ -148,6 +208,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_circle_trans_eaeaea_20.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/drawable/bg_border_grey.xml">
           <value>
             <set />
@@ -163,7 +228,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/select_checkbox.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_prompt.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_dialog_menu.xml">
           <value>
             <set />
           </value>
@@ -184,6 +264,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/view_input_idcard.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/view_search.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/values/attrs.xml">
           <value>
             <set />
           </value>

@@ -1,4 +1,4 @@
-package cn.trustway.nb.core.view;
+package cn.trustway.nb.core.prompt.view;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -55,7 +55,7 @@ public class DialogPrompt extends Dialog {
 
         private boolean isCheck = true;
 
-        public Build(Context context) {
+        public Build(@NonNull Context context) {
             this.context = context;
             dialogPrompt = new DialogPrompt(context);
             view = initView();
@@ -66,6 +66,7 @@ public class DialogPrompt extends Dialog {
          * 创建者：huzan
          * 描述：提示框样式
          */
+        @NonNull
         public Build setStyle(int style) {
             this.style = style;
             if (style == STYLE_SUCCESS) {
@@ -83,6 +84,7 @@ public class DialogPrompt extends Dialog {
          * 创建者：huzan
          * 描述：是否需要先确认才能点击确认
          */
+        @NonNull
         public Build setNeedCheck(boolean needCheck) {
             if (needCheck) {
                 checkBox.setVisibility(View.VISIBLE);
@@ -97,6 +99,7 @@ public class DialogPrompt extends Dialog {
          * 创建者：huzan
          * 描述：设置提示标题
          */
+        @NonNull
         public Build setTitle(String title) {
             this.title = title;
             textView_title.setText(title);
@@ -108,6 +111,7 @@ public class DialogPrompt extends Dialog {
          * 创建者：huzan
          * 描述：内容补充文本
          */
+        @NonNull
         public Build setMsg(String msg) {
             this.msg = msg;
             textView_msg.setText(msg);
@@ -119,6 +123,7 @@ public class DialogPrompt extends Dialog {
          * 创建者：huzan
          * 描述：确定回调
          */
+        @NonNull
         public Build setOnClickListener(View.OnClickListener listener) {
             this.onClickListener = listener;
             return this;
@@ -129,6 +134,7 @@ public class DialogPrompt extends Dialog {
          * 创建者：huzan
          * 描述：是否有删除按钮
          */
+        @NonNull
         public Build haveCancelButton(boolean haveCancelButton) {
             if (haveCancelButton) {
                 textView_cancel.setVisibility(View.VISIBLE);

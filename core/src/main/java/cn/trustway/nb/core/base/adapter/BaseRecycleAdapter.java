@@ -1,6 +1,8 @@
-package cn.trustway.nb.core.adapter;
+package cn.trustway.nb.core.base.adapter;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,9 +11,9 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.trustway.nb.core.listener.RecycleViewClickListener;
-import cn.trustway.nb.core.util.BaseHolder;
-import cn.trustway.nb.core.util.FootHolder;
+import cn.trustway.nb.core.base.listener.RecycleViewClickListener;
+import cn.trustway.nb.core.base.util.BaseHolder;
+import cn.trustway.nb.core.base.util.FootHolder;
 
 
 /**
@@ -23,6 +25,7 @@ public abstract class BaseRecycleAdapter<T> extends RecyclerView.Adapter<BaseHol
 
     protected RecycleViewClickListener listener;
     protected Context context;
+    @NonNull
     protected List<T> itemList = new ArrayList<>();
     protected LayoutInflater inflater;
     protected boolean isPaging = false; //是否分页
@@ -78,6 +81,7 @@ public abstract class BaseRecycleAdapter<T> extends RecyclerView.Adapter<BaseHol
         }
     }
 
+    @NonNull
     public List<T> getItemList() {
         return itemList;
     }
@@ -87,13 +91,13 @@ public abstract class BaseRecycleAdapter<T> extends RecyclerView.Adapter<BaseHol
         notifyItemRangeRemoved(position,this.itemList.size()+1);
     }
 
-    public void setItemList(List<T> itemList) {
+    public void setItemList(@NonNull List<T> itemList) {
         this.itemList.clear();
         this.itemList.addAll(itemList);
         notifyDataSetChanged();
     }
 
-    public void addItemList(List<T> itemList, int position) {
+    public void addItemList(@NonNull List<T> itemList, int position) {
         this.itemList.addAll(position, itemList);
         if (position == itemList.size()) {
             this.isCanRefreshing = true;
@@ -109,6 +113,7 @@ public abstract class BaseRecycleAdapter<T> extends RecyclerView.Adapter<BaseHol
 //        notifyItemInserted(position);
     }
 
+    @Nullable
     public T getItem(int position) {
         if (position < this.itemList.size()) {
             return this.itemList.get(position);
@@ -137,6 +142,7 @@ public abstract class BaseRecycleAdapter<T> extends RecyclerView.Adapter<BaseHol
      */
     protected abstract int setFootLayout();
 
+    @NonNull
     @Override
     public BaseHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v;

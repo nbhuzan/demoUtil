@@ -1,7 +1,8 @@
-package cn.trustway.nb.core.util;
+package cn.trustway.nb.core.base.util;
 
 import android.app.Activity;
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -41,7 +42,7 @@ public class HiddenSoftInputUtil {
         }
     }
 
-    public static void hiddenSoftInput(Context context) {
+    public static void hiddenSoftInput(@NonNull Context context) {
         InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
         if (imm != null) {
             imm.hideSoftInputFromWindow(((Activity) context).getWindow().getDecorView().getWindowToken(), 0);

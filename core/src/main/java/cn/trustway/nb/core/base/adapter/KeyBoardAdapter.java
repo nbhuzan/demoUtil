@@ -1,14 +1,15 @@
-package cn.trustway.nb.core.adapter;
+package cn.trustway.nb.core.base.adapter;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import cn.trustway.nb.core.R;
-import cn.trustway.nb.core.listener.RecycleViewClickListener;
-import cn.trustway.nb.core.util.BaseHolder;
+import cn.trustway.nb.core.base.listener.RecycleViewClickListener;
+import cn.trustway.nb.core.base.util.BaseHolder;
 
 
 /**
@@ -67,7 +68,7 @@ public class KeyBoardAdapter extends BaseRecycleAdapter<String> {
     }
 
     @Override
-    protected void bindYourViewHolder(BaseHolder holder, int pos) {
+    protected void bindYourViewHolder(@NonNull BaseHolder holder, int pos) {
         String str = itemList.get(pos);
         if(str.equals("trustway")) {
             ImageView imageView_cancel = (ImageView) holder.getViewById(R.id.imageview_keyboard_next);
@@ -92,7 +93,7 @@ public class KeyBoardAdapter extends BaseRecycleAdapter<String> {
             });
             holder.getView().setOnTouchListener(new View.OnTouchListener() {
                 @Override
-                public boolean onTouch(View v, MotionEvent event) {
+                public boolean onTouch(View v, @NonNull MotionEvent event) {
                     switch (event.getAction()){
 
                         case MotionEvent.ACTION_DOWN:

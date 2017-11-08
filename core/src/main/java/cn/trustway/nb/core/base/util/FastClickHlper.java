@@ -1,4 +1,4 @@
-package cn.trustway.nb.core.util;
+package cn.trustway.nb.core.base.util;
 
 /**
  * Created by huzan on 2017/11/7.

@@ -1,4 +1,4 @@
-package cn.trustway.nb.core.listener;
+package cn.trustway.nb.core.base.listener;
 
 
 import android.view.View;

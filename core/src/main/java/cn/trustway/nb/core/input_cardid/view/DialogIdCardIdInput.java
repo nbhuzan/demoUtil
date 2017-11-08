@@ -1,4 +1,4 @@
-package cn.trustway.nb.core.view;
+package cn.trustway.nb.core.input_cardid.view;
 
 
 import android.app.Dialog;
@@ -24,10 +24,10 @@ import android.widget.Toast;
 import java.util.List;
 
 import cn.trustway.nb.core.R;
-import cn.trustway.nb.core.adapter.KeyBoardAdapter;
-import cn.trustway.nb.core.listener.RecycleViewClickListener;
-import cn.trustway.nb.core.util.HiddenSoftInputUtil;
-import cn.trustway.nb.core.util.StringUtil;
+import cn.trustway.nb.core.base.adapter.KeyBoardAdapter;
+import cn.trustway.nb.core.base.listener.RecycleViewClickListener;
+import cn.trustway.nb.core.base.util.HiddenSoftInputUtil;
+import cn.trustway.nb.core.base.util.StringUtil;
 
 
 /**
@@ -64,17 +64,19 @@ public class DialogIdCardIdInput extends Dialog {
 
         private int editTextMaxLength = 18; //设置证件最大输入值
 
-        public Build(Context context) {
+        public Build(@NonNull Context context) {
             this.context = context;
             dialogIdCardKeyBoard = new DialogIdCardIdInput(context);
             initView();
         }
 
+        @NonNull
         public Build setMustAll(boolean mustAll) {
             isMustAll = mustAll;
             return this;
         }
 
+        @NonNull
         public Build setOnSubmitListener(DialogIdCardIdInput.onSubmitListener onSubmitListener) {
             this.onSubmitListener = onSubmitListener;
             return this;
@@ -150,6 +152,7 @@ public class DialogIdCardIdInput extends Dialog {
 
         }
 
+        @NonNull
         public Build setLastIdcard(String str) {
 
             this.idcard = str;
@@ -164,7 +167,7 @@ public class DialogIdCardIdInput extends Dialog {
         }
 
         private void initView() {
-            view = LayoutInflater.from(context).inflate(R.layout.view_input_idcard, null);
+            view = LayoutInflater.from(context).inflate(R.layout.dialog_input_idcard, null);
             textView_title = view.findViewById(R.id.textview_idcard_title);
             textView_submit = view.findViewById(R.id.textview_idcard_ok);
             editText_msg = view.findViewById(R.id.edittext_idcard);
@@ -177,7 +180,7 @@ public class DialogIdCardIdInput extends Dialog {
             recyclerView_key.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL));
             recyclerView_key.addItemDecoration(new RecyclerView.ItemDecoration() {
                 @Override
-                public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
+                public void getItemOffsets(@NonNull Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
                     outRect.top = 1;
                     outRect.bottom = 1;
                     outRect.left = 1;
@@ -214,7 +217,7 @@ public class DialogIdCardIdInput extends Dialog {
                 }
 
                 @Override
-                public void afterTextChanged(Editable s) {
+                public void afterTextChanged(@NonNull Editable s) {
                     idcard = s.toString();
                     if(s.length()==18){
                         textView_submit.performClick();
@@ -228,6 +231,7 @@ public class DialogIdCardIdInput extends Dialog {
          * 创建者：huzan
          * 描述：初始化键盘列表
          */
+        @NonNull
         private List<String> initKeyList() {
             List<String> keyList = StringUtil.str2List(keyDate);
             keyList.add("trustway");

@@ -1,4 +1,6 @@
-package cn.trustway.nb.core.util;
+package cn.trustway.nb.core.base.util;
+
+import android.support.annotation.NonNull;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -14,7 +16,7 @@ public class TrustwayUtil {
      *创建者：huzan
      *描述：关闭io
      */
-    public static void closeIO(Closeable... cb){
+    public static void closeIO(@NonNull Closeable... cb){
         for (Closeable closeable : cb) {
             if (closeable != null) {
                 try {

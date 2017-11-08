@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relativelayout_widget_search_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:minHeight="@dimen/y40"
+                android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageview_widget_search_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x14"
+        android:src="@drawable/ic_search_search"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton_widget_search_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x14"
+        android:background="@null"
+        android:src="@drawable/ic_search_clear"/>
+
+    <EditText
+        android:id="@+id/edittext_widget_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x9"
+        android:layout_marginRight="@dimen/x9"
+        android:layout_toLeftOf="@id/imagebutton_widget_search_right"
+        android:layout_toRightOf="@id/imageview_widget_search_left"
+        android:background="@null"
+        android:ellipsize="end"
+        android:hint="道路代码"
+        android:maxLines="1"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

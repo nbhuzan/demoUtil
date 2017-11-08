@@ -1,7 +1,8 @@
-package cn.trustway.nb.core.util;
+package cn.trustway.nb.core.base.util;
 
 import android.graphics.Color;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
@@ -26,7 +27,8 @@ public class StringUtil {
      *创建者：huzan
      *描述：格式化显示头像的文字
      */
-    public static String formatHeaderName(String name){
+    @Nullable
+    public static String formatHeaderName(@Nullable String name){
         if(name==null){
             return "";
         }
@@ -43,7 +45,7 @@ public class StringUtil {
      * param:
      * description: 判断String是否为空或者为null
      */
-    public static boolean isStringEmpty(String str) {
+    public static boolean isStringEmpty(@Nullable String str) {
         if (str == null || str.isEmpty() || "".equals(str.trim()) || "null".equals(str.trim())) {
             return true;
         }
@@ -56,7 +58,7 @@ public class StringUtil {
      * @param timeStr
      * @return
      */
-    public static String getDateStr(String timeStr) {
+    public static String getDateStr(@Nullable String timeStr) {
         String dataStr = "--";
         if (timeStr != null && timeStr.length() > 0) {
             dataStr = timeStr.split(" ")[0];
@@ -70,7 +72,8 @@ public class StringUtil {
      * @param str
      * @return
      */
-    public static String getSearchInfoStr(String str) {
+    @Nullable
+    public static String getSearchInfoStr(@Nullable String str) {
         String infoStr = "--";
         if (str != null && str.length() > 0) {
             infoStr = str;
@@ -115,7 +118,8 @@ public class StringUtil {
      * @param zjcx
      * @return
      */
-    public static List<String> getZjcx(String zjcx) {
+    @NonNull
+    public static List<String> getZjcx(@Nullable String zjcx) {
         if (zjcx == null || zjcx.length() <= 0) {
             return new ArrayList<>();
         }
@@ -141,7 +145,8 @@ public class StringUtil {
 
 
 
-    public static SpannableStringBuilder str2ssb(String strBefore, String str, String strAfter) {
+    @NonNull
+    public static SpannableStringBuilder str2ssb(@NonNull String strBefore, @NonNull String str, String strAfter) {
         ForegroundColorSpan redSpan = new ForegroundColorSpan(Color.RED);
         SpannableStringBuilder strBuilder = new SpannableStringBuilder(strBefore + str + strAfter);
         int length = strBefore.length();
@@ -169,7 +174,7 @@ public class StringUtil {
      * @return timtPoint距离现在经过的时间，分为
      * 刚刚，1-29分钟前，半小时前，1-23小时前，1-14天前，半个月前，1-5个月前，半年前，1-xxx年前
      */
-    public static String getTimeElapse(Date date) {
+    public static String getTimeElapse(@NonNull Date date) {
 
         long nowTime = System.currentTimeMillis() / 1000;
 
@@ -220,7 +225,7 @@ public class StringUtil {
         return elapsedTime / seconds_of_1year + "年前";
     }
 
- private static String getTimeElapseAfter( Date date) {
+ private static String getTimeElapseAfter(@NonNull Date date) {
 
         long nowTime = System.currentTimeMillis() / 1000;
 
@@ -275,7 +280,7 @@ public class StringUtil {
      * @param key
      * @return 样式：？，？，？
      */
-    public static String sqlPlaceholders(String key){
+    public static String sqlPlaceholders(@NonNull String key){
         StringBuilder sb = new StringBuilder(key.length() * 2 - 1);
         sb.append("?");
         for (int i = 1; i < key.length(); i++) {
@@ -285,8 +290,10 @@ public class StringUtil {
     }
 
     //身份证第一位到第十七位的系数: 7 9 10 5 8 4 2 1 6 3 7 9 10 5 8 4 2
+    @NonNull
     private static int[] validateIdentiList = {7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2};
     //取余11以后的对照表
+    @NonNull
     private static String[] validateIdentiRemainderList = {"1", "0", "X", "9", "8", "7", "6", "5", "4", "3", "2"};
 
     /**
@@ -294,7 +301,7 @@ public class StringUtil {
      * param:
      * description: 正则粗略校验身份证是否符合规范，然后对身份证进行正确性校验
      */
-    public static boolean validateIdentification(String identification) {
+    public static boolean validateIdentification(@NonNull String identification) {
         if (StringUtil.isStringEmpty(identification)) {
             return false;
         }
@@ -338,6 +345,7 @@ public class StringUtil {
      *创建者：huzan
      *描述：
      */
+    @NonNull
     public static List<String> str2List(@NonNull String str){
         char[] chars = str.toCharArray();
         List<String> list = new ArrayList<>();
@@ -349,7 +357,7 @@ public class StringUtil {
 
     private static final String sensitiveStringFormat = "(\\d{%d})\\d{%d}(\\d{%d})";
 
-    public static String hideSensitiveInfo(String info, String sensitiveStr) {
+    public static String hideSensitiveInfo(@NonNull String info, String sensitiveStr) {
         if(isStringEmpty(info)) {
             return null;
         }

@@ -1,4 +1,6 @@
-package cn.trustway.nb.core.util;
+package cn.trustway.nb.core.base.util;
+
+import android.support.annotation.NonNull;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -44,7 +46,7 @@ public class GsonUtil {
         }
     }
 
-    public static <T> T fromJson(String json, Class<T> classoft) {
+    public static <T> T fromJson(String json, @NonNull Class<T> classoft) {
         try {
             json = URLDecoder.decode(json, "utf-8");
             return gson.fromJson(json, classoft);
@@ -53,7 +55,7 @@ public class GsonUtil {
         }
     }
 
-    public static <T> T fromJsonNoDecode(String json, Class<T> classoft) {
+    public static <T> T fromJsonNoDecode(String json, @NonNull Class<T> classoft) {
         try {
 //			json=URLDecoder.decode(json, "utf-8");
             return gson.fromJson(json, classoft);
@@ -70,7 +72,7 @@ public class GsonUtil {
         }
     }
 
-    public static <T> ArrayList<T> jsonToArrayList(String json, Class<T> clazz) {
+    public static <T> ArrayList<T> jsonToArrayList(String json, @NonNull Class<T> clazz) {
         try {
             Type type = new TypeToken<ArrayList<JsonObject>>() {
             }.getType();
