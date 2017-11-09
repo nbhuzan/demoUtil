@@ -18,6 +18,8 @@ import cn.trustway.nb.core.menu.model.MenuModel;
 import cn.trustway.nb.core.menu.util.MenuUtil;
 import cn.trustway.nb.core.menu.view.DialogMenu;
 import cn.trustway.nb.core.prompt.view.DialogPrompt;
+import cn.trustway.nb.core.vio_action.model.VioActionModel;
+import cn.trustway.nb.core.vio_action.view.DialogAction;
 import cn.trustway.nb.core.vio_address.model.RoadModel;
 import cn.trustway.nb.core.vio_address.view.DialogAddress;
 
@@ -161,5 +163,78 @@ public class TestActivity extends Activity {
                 })
                 .create();
     }
+
+    public void vioAction(View view){
+        List<VioActionModel> list = new ArrayList<>();
+        List<VioActionModel> collectList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            VioActionModel vioActionModel = new VioActionModel();
+            vioActionModel.setWfxw("违法行为"+i);
+            vioActionModel.setWfnr("违法内容"+i);
+            list.add(vioActionModel);
+            if(i<5){
+                collectList.add(vioActionModel);
+            }
+        }
+
+        new DialogAction.Build(context)
+                .isSelectMore(false)
+                .setCollectVioActionList(collectList)
+                .setVioActionList(list)
+                .setOnSelectOne(vioWfdm -> {
+                    Toast.makeText(context, vioWfdm.getWfnr(), Toast.LENGTH_SHORT).show();
+                })
+                .setOnOperationListener(new DialogAction.OnOperationListener() {
+                    @Override
+                    public void onAddCollect(VioActionModel vioActionModel) {
+                        Toast.makeText(context, vioActionModel.getWfnr(), Toast.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onDeleteCollect(VioActionModel vioActionModel) {
+                        Toast.makeText(context, vioActionModel.getWfnr(), Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .create();
+    }
+
+     public void vioActionMore(View view){
+        List<VioActionModel> list = new ArrayList<>();
+        List<VioActionModel> collectList = new ArrayList<>();
+        List<VioActionModel> selectList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            VioActionModel vioActionModel = new VioActionModel();
+            vioActionModel.setWfxw("违法行为"+i);
+            vioActionModel.setWfnr("违法内容"+i);
+            list.add(vioActionModel);
+            if(i<5){
+                collectList.add(vioActionModel);
+            }
+
+        }
+        selectList.add(list.get(0));
+
+        new DialogAction.Build(context)
+                .isSelectMore(true)
+                .setCollectVioActionList(collectList)
+                .setVioActionList(list)
+                .setSelectMax(2)
+                .setSelectList(selectList)
+                .setOnSelectMore(vioWfdms -> Toast.makeText(context, vioWfdms.size()+"选中", Toast.LENGTH_SHORT).show())
+                .setOnOperationListener(new DialogAction.OnOperationListener() {
+                    @Override
+                    public void onAddCollect(VioActionModel vioActionModel) {
+                        Toast.makeText(context, vioActionModel.getWfnr(), Toast.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onDeleteCollect(VioActionModel vioActionModel) {
+                        Toast.makeText(context, vioActionModel.getWfnr(), Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .create();
+    }
+
+
 
 }

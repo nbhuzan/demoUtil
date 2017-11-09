@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textview_wfxw_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/y40"
+        android:paddingLeft="@dimen/x14"
+        android:paddingRight="@dimen/x10"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/sp16"
+        android:paddingTop="@dimen/y5"
+        android:paddingBottom="@dimen/y5"
+        tools:text="12-宁波市就收到回复了附近发生了大家阿斯科利大家阿斯利康大家阿斯利康大家阿斯利康大家阿克琉斯点击"/>
+
+    <ImageView
+        android:id="@+id/imageview_wfxw_select"
+        android:layout_width="@dimen/x21"
+        android:layout_height="@dimen/y21"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_badger_delete"
+        android:contentDescription="@string/删除"/>
+</RelativeLayout>

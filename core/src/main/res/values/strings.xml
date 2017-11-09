@@ -17,4 +17,7 @@
     <string name="lddm">路段代码</string>
     <string name="ddms">地点米数</string>
     <string name="personal_collect">个人收藏</string>
+    <string name="vio_action">违法行为</string>
+    <string name="input_vio_action">违法行为代码/违法行为名称</string>
+    <string name="删除">delete</string>
 </resources>

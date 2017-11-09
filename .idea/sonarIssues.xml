@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/build/intermediates/bundles/debug/res/layout/dialog_vio_action.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/FastClickUtil.java">
           <value>
             <set />
@@ -258,6 +263,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_action/adapter/VioActionAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_action/adapter/VioActionSelectedAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_action/model/VioActionModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_action/util/VioActionUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_action/view/DialogAction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_address/adapter/AddressAdapter.java">
           <value>
             <set />
@@ -403,6 +433,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_vio_action.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_address.xml">
           <value>
             <set />
@@ -424,6 +459,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_search_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_vio_action.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_vio_action_selected.xml">
           <value>
             <set />
           </value>
@@ -578,6 +623,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/search/SearchVehicleActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/violation/BaseViolationDriverActivity.java">
           <value>
             <set />
@@ -593,7 +643,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/widget/DialogWfxw.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/item_keyboard.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/item_violation_conduct.xml">
           <value>
             <set />
           </value>

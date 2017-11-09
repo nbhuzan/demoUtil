@@ -149,7 +149,7 @@ public class DialogAddress extends Dialog {
         }
 
         private void initView() {
-            view = LayoutInflater.from(context).inflate(R.layout.dialog_address, null);
+            view = LayoutInflater.from(context).inflate(R.layout.dialog_vio_address, null);
             imageView_cancel = view.findViewById(R.id.imageview_dialog_address_cancel);
             textView_title = view.findViewById(R.id.textview_dialog_address_title);
             textView_submit = view.findViewById(R.id.textview_dialog_address_submit);

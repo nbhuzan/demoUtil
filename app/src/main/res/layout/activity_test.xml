@@ -59,6 +59,18 @@
             android:onClick="road"
             android:text="违法道路"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="vioAction"
+            android:text="违法行为"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="vioActionMore"
+            android:text="违法行为多选"/>
+
 
     </LinearLayout>
 </ScrollView>

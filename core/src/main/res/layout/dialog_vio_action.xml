@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/linearlayout_input_carnum_parent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y48"
+        android:background="@drawable/bg_border_b_white_grey"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageview_dialog_wfxw_cancel"
+            android:layout_width="@dimen/x18"
+            android:layout_height="@dimen/y18"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x16"
+            android:layout_marginRight="@dimen/x16"
+            android:scaleType="centerInside"
+            android:src="@drawable/dialog_menu_cancel"/>
+
+
+        <TextView
+            android:id="@+id/textview_dialog_wfxw_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/vio_action"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/sp16"/>
+
+
+        <TextView
+            android:id="@+id/textview_dialog_wfxw_submit"
+            android:layout_width="@dimen/x50"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/btn_black_blue"
+            android:textSize="@dimen/sp16"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+
+        <cn.trustway.nb.core.search.view.ViewSearch
+            android:id="@+id/search_dialog_wfxw_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y40"
+            android:layout_margin="@dimen/x10"
+            app:bg="@drawable/bg_border_circle_trans_grey_20"
+            app:msgHint="@string/input_vio_action"/>
+        <TextView
+            android:id="@+id/textview_dialog_wfxw_select_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x10"
+            android:textColor="@android:color/holo_red_light"
+            tools:text="已选:5条"
+            android:visibility="gone"/>
+        <cn.trustway.nb.core.base.view.TrustwayRecycleView
+            android:id="@+id/recycleview_dialog_wfxw_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/textview_dialog_wfxw_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x10"
+            android:text="@string/personal_collect"/>
+
+        <cn.trustway.nb.core.base.view.TrustwayRecycleView
+            android:id="@+id/recycleview_dialog_wfxw_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"/>
+    </LinearLayout>
+
+
+</LinearLayout>
