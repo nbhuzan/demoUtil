@@ -1,6 +1,5 @@
 package cn.trustway.nb.core.input_letter_number.view;
 
-import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
@@ -12,7 +11,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -37,7 +35,6 @@ import cn.trustway.nb.core.base.util.StringUtil;
  */
 
 public class DialogInputLetterNumber extends Dialog {
-
 
 
     public DialogInputLetterNumber(@NonNull Context context, String carNum) {
@@ -73,10 +70,10 @@ public class DialogInputLetterNumber extends Dialog {
         private OnSubmitListener onSubmitListener;//录入完获取车牌号的监听
         private View view;
 
-        public Build(Context context, String carNum) {
+        public Build(Context context, String text) {
             this.context = context;
-            dialogInputLetterNumber = new DialogInputLetterNumber(context, carNum);
-            view = initView(context, carNum);
+            dialogInputLetterNumber = new DialogInputLetterNumber(context, text);
+            view = initView(context, text);
         }
 
         public Build setOnSubmitListener(OnSubmitListener onSubmitListener) {
@@ -84,7 +81,7 @@ public class DialogInputLetterNumber extends Dialog {
             return this;
         }
 
-        public void create(){
+        public void create() {
             dialogInputLetterNumber.show();
             dialogInputLetterNumber.setContentView(view);
             dialogInputLetterNumber.setCancelable(true);
@@ -101,7 +98,7 @@ public class DialogInputLetterNumber extends Dialog {
         }
 
 
-        private View  initView(@NonNull Context context, String carNum) {
+        private View initView(@NonNull Context context, String text) {
             layoutInflater = LayoutInflater.from(context);
             View inflate = layoutInflater.inflate(R.layout.dialog_input_letter_number, null);
             textView_ok = inflate.findViewById(R.id.textview_letter_number_ok);
@@ -113,21 +110,17 @@ public class DialogInputLetterNumber extends Dialog {
             relativelayout_prompt = inflate.findViewById(R.id.relativelayout_letter_number_prompt);
             HiddenSoftInputUtil.hiddenSoftInput(editText);
             initPrompt(context);
-            if (carNum != null) {
-                char[] chars = carNum.toCharArray();
-                int charsLength = chars.length;
-                for (int i = 0; i < charsLength; i++) {
-                    if (editText != null)
-                        editText.setText(String.valueOf(chars[i]));
-                }
+            if(text!=null) {
+                editText.setText(text);
+                editText.setSelection(text.length());
             }
+
             textView_empty.setOnClickListener(v -> editText.setText(""));
             textView_change.setOnClickListener(v -> adapterKey.setUpperCase(!adapterKey.isUpperCase()));
 
 
             textView_ok.setOnClickListener(v -> {
                 if (onSubmitListener != null) {
-
                     dialogInputLetterNumber.dismiss();
                     onSubmitListener.onClick(editText.getText().toString());
                 }
@@ -209,24 +202,6 @@ public class DialogInputLetterNumber extends Dialog {
                 }
             });
 
-            recyclerView.setOnTouchListener((v, event) -> {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_UP:
-                        //防止按下后滑动item的up事件被recycle接管，无法执行adapterKey.setOnClickListener和adapterKey.setOnKeyTouchListener
-                        if (textView_prompt != null) {
-                            relativelayout_prompt.removeView(textView_prompt);
-                            textView_prompt = null;
-                            if (adapterKey.isUpperCase()) {
-                                setInput(listKey.get(positon));
-                            } else {
-                                setInput(listKey.get(positon).toLowerCase());
-                            }
-                        }
-                        break;
-                }
-                return false;
-            });
-
             adapterKey.setOnKeyTouchListener(new KeyBoardAdapter.OnKeyTouchListener() {
                 @Override
                 public void onDown(View v, int pos) {
@@ -237,7 +212,11 @@ public class DialogInputLetterNumber extends Dialog {
                         textView_prompt = null;
                     }
                     initPrompt(context);
-                    textView_prompt.setText(listKey.get(pos));
+                    if(adapterKey.isUpperCase()){
+                        textView_prompt.setText(listKey.get(pos));
+                    }else{
+                        textView_prompt.setText(listKey.get(pos).toLowerCase());
+                    }
                     lpPrompt.bottomMargin = v.getHeight() * (6 - pos / 6) + v.getHeight() / 2;
                     lpPrompt.leftMargin = pos % 6 * v.getWidth();
                     relativelayout_prompt.addView(textView_prompt, lpPrompt);
@@ -251,7 +230,6 @@ public class DialogInputLetterNumber extends Dialog {
                 }
             });
             setKeyBoardType();
-
         }
 
 
@@ -260,9 +238,12 @@ public class DialogInputLetterNumber extends Dialog {
          * 创建者：huzan
          * 描述：设置选择的键盘数据
          */
-        @SuppressLint("SetTextI18n")
         private void setInput(String str) {
-            editText.setText(editText.getText().toString() + str);
+            if (adapterKey.isUpperCase()) {
+                editText.setText(String.format("%s%s", editText.getText(), str));
+            }else{
+                editText.setText(String.format("%s%s", editText.getText(), str.toLowerCase()));
+            }
             editText.setSelection(editText.getText().length());
         }
 

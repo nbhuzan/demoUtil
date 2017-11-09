@@ -171,7 +171,7 @@ class DialogSearch extends Dialog {
                     int childCount = parent.getChildCount();
                     Paint paint = new Paint();
                     for (int i = 0; i < childCount - 1; i++) {
-                        paint.setColor(ContextCompat.getColor(context, R.color.grey));
+                        paint.setColor(ContextCompat.getColor(context, R.color.gray));
                         View view = parent.getChildAt(i);
                         float top = view.getTop() + context.getResources().getDimension(R.dimen.y15);
                         float bottom = view.getTop() + view.getHeight() - context.getResources().getDimension(R.dimen.y15);

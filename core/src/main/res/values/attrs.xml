@@ -3,6 +3,8 @@
     <attr name="msgHint" format="string"/>
     <attr name="msgText" format="string"/>
     <attr name="msgColor" format="reference|color"/>
+    <attr name="titleText" format="string"/>
+    <attr name="titleColor" format="reference|color"/>
     <attr name="msgHintColor" format="reference|color"/>
     <attr name="viewHeight" format="dimension"/>
     <attr name="bg" format="reference|color"/>
@@ -15,4 +17,13 @@
         <attr name="viewHeight"/>
         <attr name="bg"/>
     </declare-styleable>
+
+    <!--道路代码自定义radiobutton-->
+    <declare-styleable name="RoadRadioButton">
+        <attr name="titleColor"/>
+        <attr name="msgColor"/>
+        <attr name="titleText"/>
+        <attr name="msgText"/>
+    </declare-styleable>
+
 </resources>

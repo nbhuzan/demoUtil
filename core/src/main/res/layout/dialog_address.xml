@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:trustway="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/linearlayout_input_carnum_parent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y48"
+        android:background="@drawable/bg_border_b_white_grey"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageview_dialog_address_cancel"
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/x16"
+            android:scaleType="centerInside"
+            android:src="@drawable/dialog_menu_cancel"/>
+
+
+        <TextView
+            android:id="@+id/textview_dialog_address_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/vio_address"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/sp16"/>
+
+
+        <TextView
+            android:id="@+id/textview_dialog_address_submit"
+            android:layout_width="@dimen/x50"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/btn_black_blue"
+            android:textSize="@dimen/sp16"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <cn.trustway.nb.core.search.view.ViewSearch
+            android:id="@+id/search_dialog_address_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y40"
+            android:layout_margin="@dimen/x10"
+            trustway:bg="@drawable/bg_border_circle_trans_grey_20"
+            trustway:msgHint="@string/input_road"/>
+
+        <TextView
+            android:id="@+id/textview_address_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y1"
+            android:background="@drawable/bg_border_trans_t"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/y10"
+            android:paddingLeft="@dimen/x10"
+            android:paddingTop="@dimen/y13"
+            android:paddingRight="@dimen/x10"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_address_dm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/y1"
+            android:background="@drawable/bg_border_trans_t"
+            android:orientation="horizontal"
+            android:padding="@dimen/x10">
+
+            <cn.trustway.nb.core.vio_address.view.RoadRadioButton
+                android:id="@+id/radiobutton_address_dldm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/check_white_blue"
+                android:button="@null"
+                android:checked="true"
+                android:minHeight="@dimen/y40"
+                trustway:msgColor="@color/check_gray_white"
+                trustway:titleColor="@color/check_gray_white"
+                trustway:titleText="@string/dldm"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="一"/>
+
+            <cn.trustway.nb.core.vio_address.view.RoadRadioButton
+                android:id="@+id/radiobutton_address_lddm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/check_white_blue"
+                android:button="@null"
+                android:minHeight="@dimen/y40"
+                trustway:msgColor="@color/check_gray_white"
+                trustway:titleColor="@color/check_gray_white"
+                trustway:titleText="@string/lddm"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="一"/>
+
+            <cn.trustway.nb.core.vio_address.view.RoadRadioButton
+                android:id="@+id/radiobutton_address_dlms"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/check_white_blue"
+                android:button="@null"
+                android:minHeight="@dimen/y40"
+                trustway:msgColor="@color/check_gray_white"
+                trustway:titleColor="@color/check_gray_white"
+                trustway:titleText="@string/ddms"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textview_dialog_address_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x10"
+            android:text="@string/personal_collect"/>
+
+        <cn.trustway.nb.core.base.view.TrustwayRecycleView
+            android:id="@+id/recycleview_dialog_address_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            trustway:bg="@color/gray"/>
+    </LinearLayout>
+
+
+</LinearLayout>

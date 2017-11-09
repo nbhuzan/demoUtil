@@ -193,7 +193,7 @@ public class DialogMenu extends Dialog {
             recycleView.addItemDecoration(new RecyclerViewDivider(context,
                     LinearLayoutManager.VERTICAL,
                     2,
-                    ContextCompat.getColor(context, R.color.grey)));
+                    ContextCompat.getColor(context, R.color.gray)));
             recycleView.setItemAnimator(new DefaultItemAnimator());
             imageView_cancel.setOnClickListener(new View.OnClickListener() {
                 @Override

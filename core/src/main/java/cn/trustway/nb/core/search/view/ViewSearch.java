@@ -61,7 +61,7 @@ public class ViewSearch extends LinearLayout {
         for (int i = 0; i < n; i++) {
             int index = array.getIndex(i);
             if (index == R.styleable.ViewSearch_msgColor) {
-                editText.setTextColor(array.getColor(index, ContextCompat.getColor(context, R.color.grey)));
+                editText.setTextColor(array.getColor(index, ContextCompat.getColor(context, R.color.gray)));
 
             } else if (index == R.styleable.ViewSearch_msgText) {
                 editText.setText(array.getString(index));
@@ -70,7 +70,7 @@ public class ViewSearch extends LinearLayout {
                 editText.setHint(array.getString(index));
 
             } else if (index == R.styleable.ViewSearch_msgHintColor) {
-                editText.setHintTextColor(array.getColor(index, ContextCompat.getColor(context, R.color.grey)));
+                editText.setHintTextColor(array.getColor(index, ContextCompat.getColor(context, R.color.gray)));
 
             } else if (index == R.styleable.ViewSearch_viewHeight) {
                 ViewGroup.LayoutParams layoutParams = relativeLayout.getLayoutParams();

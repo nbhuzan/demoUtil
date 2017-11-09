@@ -9,4 +9,12 @@
     <string name="cancel">取消</string>
     <string name="menu">菜单</string>
     <string name="letter_number">字母/数字</string>
+    <string name="vio_address">违法地址</string>
+    <string name="prompt">提示</string>
+    <string name="input_road">道路代码/道路名称</string>
+    <string name="input_road_section">路段代码/路段名称</string>
+    <string name="dldm">道路代码</string>
+    <string name="lddm">路段代码</string>
+    <string name="ddms">地点米数</string>
+    <string name="personal_collect">个人收藏</string>
 </resources>

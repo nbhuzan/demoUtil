@@ -44,7 +44,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="@string/ok"
-                android:textColor="@color/color_black_blue"
+                android:textColor="@color/btn_black_blue"
                 android:textSize="@dimen/sp16"/>
         </LinearLayout>
 
@@ -109,14 +109,14 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="2px"
-            android:background="@color/grey"/>
+            android:background="@color/gray"/>
 
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycleview_input_carnum_keyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/grey"
+            android:background="@color/gray"
             android:padding="1px"/>
     </LinearLayout>
 

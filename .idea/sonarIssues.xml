@@ -68,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/build/intermediates/bundles/debug/res/layout/dialog_address.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/build/intermediates/bundles/debug/res/layout/dialog_menu.xml">
           <value>
             <set />
@@ -144,6 +149,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/model/MenuModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/prompt/view/DialogNormal.java">
           <value>
             <set />
           </value>
@@ -248,6 +258,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_address/adapter/AddressAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_address/model/RoadModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_address/view/DialogAddress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/vio_address/view/RoadRadioButton.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/color/check_white_blue.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/color/checked_9e9ca8.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/color/color_black_blue.xml">
           <value>
             <set />
@@ -308,12 +348,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/check_blue_check.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/drawable/check_white_blue.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/drawable/ic_monitor_cancel.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/drawable/select_checkbox.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_address.xml">
           <value>
             <set />
           </value>
@@ -333,12 +388,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_normal.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_prompt.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/res/layout/dialog_search.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/res/layout/item_address.xml">
           <value>
             <set />
           </value>

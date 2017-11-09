@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/ok"
-            android:textColor="@color/color_black_blue"
+            android:textColor="@color/btn_black_blue"
             android:textSize="@dimen/sp16"/>
     </LinearLayout>
 
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/y40"
             android:layout_margin="@dimen/x10"
-            app:bg="@drawable/bg_border_circle_trans_eaeaea_20"
+            app:bg="@drawable/bg_border_circle_trans_grey_20"
             app:msgHint="@string/input_key"
             />
 
@@ -79,7 +79,7 @@
             android:id="@+id/recycleview_menu_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/grey"
+            android:background="@color/gray"
             android:layout_marginTop="@dimen/y10"/>
     </LinearLayout>
 

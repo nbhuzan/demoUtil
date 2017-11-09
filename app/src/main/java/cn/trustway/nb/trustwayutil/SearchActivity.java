@@ -52,7 +52,7 @@ public class SearchActivity extends Activity {
         recycleView.addItemDecoration(new RecyclerViewDivider(this,
                 LinearLayoutManager.VERTICAL,
                 2,
-                ContextCompat.getColor(this, cn.trustway.nb.core.R.color.grey)));
+                ContextCompat.getColor(this, cn.trustway.nb.core.R.color.gray)));
         recycleView.setItemAnimator(new DefaultItemAnimator());
         recycleView.setScrollHeaderFooterStateListener(new TrustwayRecycleView.ScrollHeaderFooterStateListener() {
             @Override

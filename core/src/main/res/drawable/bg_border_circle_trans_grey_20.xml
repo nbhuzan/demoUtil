@@ -6,6 +6,6 @@
         android:color="@android:color/transparent"/>
     <stroke
         android:width="@dimen/x1"
-        android:color="@color/grey"/>
+        android:color="@color/gray"/>
     <corners android:radius="@dimen/y20"/>
 </shape>

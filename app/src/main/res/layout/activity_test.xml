@@ -14,29 +14,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="prompt"
-            android:textColor="@android:color/holo_red_dark"
-            android:text="提示框"/>
+            android:text="提示框"
+            android:textColor="@android:color/holo_blue_dark"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="cardid"
             android:text="录入身份证"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="carnum"
             android:text="录入车牌"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="menu"
             android:text="单选菜单"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="menuDouble"
             android:text="多选菜单"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +53,11 @@
             android:onClick="letterNumber"
             android:text="字母数字键盘"/>
 
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="road"
+            android:text="违法道路"/>
 
 
     </LinearLayout>

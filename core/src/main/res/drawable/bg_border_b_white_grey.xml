@@ -11,7 +11,7 @@
                 android:color="@android:color/white"/>
             <stroke
                 android:width="2px"
-                android:color="@color/grey"/>
+                android:color="@color/gray"/>
         </shape>
     </item>
 </layer-list>
