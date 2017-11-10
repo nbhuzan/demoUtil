@@ -70,6 +70,11 @@
             android:layout_height="wrap_content"
             android:onClick="vioActionMore"
             android:text="违法行为多选"/>
+         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="frame"
+            android:text="大框架"/>
 
 
     </LinearLayout>

@@ -61,12 +61,7 @@ public class TestActivity extends Activity {
                 .setStyle(DialogPrompt.STYLE_QUESTION)
                 .setTitle("提示")
                 .setMsg("你好吗？我是提示框")
-                .setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Toast.makeText(context, "好的，知道了", Toast.LENGTH_SHORT).show();
-                    }
-                })
+                .setOnClickListener(view -> Toast.makeText(context, "好的，知道了", Toast.LENGTH_SHORT).show())
                 .create();
     }
 
@@ -233,6 +228,10 @@ public class TestActivity extends Activity {
                     }
                 })
                 .create();
+    }
+
+    public void frame(View v){
+         startActivity(new Intent(context,FrameActivity.class));
     }
 
 
