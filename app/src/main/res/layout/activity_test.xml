@@ -70,11 +70,23 @@
             android:layout_height="wrap_content"
             android:onClick="vioActionMore"
             android:text="违法行为多选"/>
-         <Button
+
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="frame"
             android:text="大框架"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="testRxAndroid"
+            android:text="测试rxandroid"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="testQrcode"
+            android:text="测试二维码"/>
 
 
     </LinearLayout>

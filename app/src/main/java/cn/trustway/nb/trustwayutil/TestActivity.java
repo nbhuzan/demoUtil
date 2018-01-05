@@ -234,6 +234,12 @@ public class TestActivity extends Activity {
          startActivity(new Intent(context,FrameActivity.class));
     }
 
+    public void testRxAndroid(View v){
+        startActivity(new Intent(context,TextRxActivity.class));
+    }
 
 
+    public void testQrcode(View view) {
+        startActivity(new Intent(context,QrcodeActivity.class));
+    }
 }

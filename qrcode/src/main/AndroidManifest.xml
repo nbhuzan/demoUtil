@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.trustway.nb.qrcode">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application>
+        <activity
+            android:name=".library.zxing.android.CaptureActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+</manifest>

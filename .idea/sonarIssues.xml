@@ -68,12 +68,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/QrcodeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/SearchActivity.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/TestActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/TextRxActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/TrustwayOkhttp.java">
           <value>
             <set />
           </value>
@@ -149,6 +164,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/adapter/KeyBoardAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/okHttp/NormalConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/okHttp/OkHttpFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/okHttp/OkHttpService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/okHttp/ResponseError.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/util/DateUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/cn/trustway/nb/core/base/util/GsonUtil.java">
           <value>
             <set />
           </value>
@@ -693,6 +738,71 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/qrcode/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/android/BeepManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/android/CaptureActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/android/CaptureActivityHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/camera/AutoFocusManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/camera/CameraConfigurationManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/camera/CameraManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/decode/DecodeFormatManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/decode/DecodeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/decode/DecodeThread.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/java/cn/trustway/nb/qrcode/library/zxing/view/ViewfinderView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/qrcode/src/main/res/layout/capture.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/trusteayimageselect/build.gradle">
           <value>
             <set />
@@ -758,12 +868,107 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/lishui/java/cn/trustway/nb/mobilepolice/view/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/lishui_ww/java/cn/trustway/nb/mobilepolice/view/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/adapter/chat/ChatWithUserAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/config/HttpConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/greendao/entity/Contact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/greendao/entity/Content.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/model/form/search/QueryDriverLicenseForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/okhttp/OkHttpService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/service/ServiceViolationUpload.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/util/DictionaryUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/util/GlobalConfigUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/util/StringUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/chat/BaseChatActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/chat/ChatWithUserActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/chat/ContactAddDetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/chat/ContactInfoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/chat/ContactListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/main/FragmentFunction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/main/FragmentMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/main/FragmentMy.java">
           <value>
             <set />
           </value>
@@ -798,6 +1003,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/tool/QrcodeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/tool/ScanActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/violation/BaseVioDriverActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/violation/BaseViolationBreakLawActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/violation/BaseViolationDriverActivity.java">
           <value>
             <set />
@@ -813,7 +1038,112 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/activity/BaseViolationActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/activity/ViolationVehicleActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/config/ViolationConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/impl/BaseViolationAction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/impl/BaseViolationActionImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/impl/BaseViolationDriverImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/impl/BaseViolationVehicleImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/impl/ViolationVehicleAction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/inter/BaseViolationActionInter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/inter/BaseViolationDriverInter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/inter/BaseViolationVehicleInter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/model/ViolationActionModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/model/ViolationDriverCacheModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/model/ViolationDriverModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/model/ViolationVehicleModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/util/ViolationUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/widget/DialogAddress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/widget/DialogWfxw.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/widget/WidgetInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/activity_qrcode.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/activity_violation_vehicle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/item_chat_from.xml">
           <value>
             <set />
           </value>
@@ -833,12 +1163,57 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/violation/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/violation/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/violation/src/main/java/cn/trustway/nb/violation/BaseViolationDriverViewImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/violation/src/main/java/cn/trustway/nb/violation/BaseViolationDriverViewInter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/violation/src/main/java/cn/trustway/nb/violation/IBaseViolationDriverView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/violation/src/main/java/cn/trustway/nb/violation/impl/BaseViolationDriverViewImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/violation/src/main/java/cn/trustway/nb/violation/inter/BaseViolationDriverViewInter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/a.dummy">
           <value>
             <set />
           </value>
         </entry>
         <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="[Connection 1] CONSOLE - Connection 1">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="[Connection 2] CONSOLE - Connection 2">
           <value>
             <set />
           </value>
