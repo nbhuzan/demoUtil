@@ -37,4 +37,6 @@ public class FrameAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         return super.getPageTitle(position);
     }
+
+
 }

@@ -54,6 +54,8 @@ public class TestActivity extends Activity {
 
     }
 
+
+
     public void prompt(View v) {
         new DialogPrompt.Build(context)
                 .haveCancelButton(true)
@@ -241,5 +243,9 @@ public class TestActivity extends Activity {
 
     public void testQrcode(View view) {
         startActivity(new Intent(context,QrcodeActivity.class));
+    }
+
+    public void testPic(View v){
+        startActivity(new Intent(context,TakePicActivity.class));
     }
 }

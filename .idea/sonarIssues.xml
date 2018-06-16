@@ -8,6 +8,146 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/port/Port.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/JQPrinter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/PrinterParam.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/Printer_define.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/common/Code128.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/common/ImageConvert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/cpcl/Image.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/cpcl/Page.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/cpcl/Text.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/cpcl/package-info.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/esc/Barcode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/esc/BaseESC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/esc/CardReader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/esc/ESC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/esc/Graphic.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/esc/Image.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/esc/Text.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/Barcode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/BaseJPL.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/Graphic.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/Image.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/JPL.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/Page.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/Text.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/printer/jpl/TextArea.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JQ_Printer_Demo performence/app/src/main/java/com/jq/ui/BtConfigActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../CdtTest/app/src/main/java/com/example/huzan/cdttest/MainActivity.java">
           <value>
             <set />
@@ -24,6 +164,446 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../HuzanDemo/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/alarm/activity/AlarmListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/alarm/activity/FragmentAlarm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/func/notice/activity/NoticeListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/func/notice/activity/NoticeSaveActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/func/notice/model/NoticeModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/activity/CrossInfoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/activity/FragmentHome.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/activity/HomeSearchActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/activity/SearchActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/adapter/MapInfoPhaseAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/adapter/MapMarkerInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/adapter/MapMarkerInfoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/bean/PhaseInfoBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/config/HomeConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/model/PhaseInfoModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/util/MapUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/home/view/DialogLockPhase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/activity/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/activity/BaseFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/activity/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/adapter/BaseHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/adapter/BaseRecycleAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/adapter/FootHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/application/LayoutRoute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/application/MyApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/util/LatlngUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/util/RecyclerViewDivider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/util/ViewUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/view/ClickEditText.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/view/Dialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/view/LoadingDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/view/MyRecycleView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/main/view/NoScrollViewPager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/my/activity/FragmentMy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/my/activity/NoticeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/my/activity/NoticeListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/net/LoadDialogHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/notice/activity/FragmentNotice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/java/cn/trustway/nb/ruian_mobilepolice/view/activity/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/anim/dialog_loded.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/anim/dialog_scale_in.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/anim/dialog_scale_out.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/color/btn_color_grey_white.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/color/check_color_black_white.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/color/check_color_grey_white.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/color/color_main_mainhalf.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/color/focus_color_white_black.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_border_b_trans_grey.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_border_b_white_greylight.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_border_trans_grey.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_circle_green_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_circle_grey_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_circle_main_white_l_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_circle_main_white_r_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_circle_red_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_circle_white_l_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/bg_circle_white_r_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/btn_border_b_trans_grey.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/btn_border_b_trans_greylight.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/btn_color_grey_white.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/btn_color_white_grey.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/check_circle_l_main_white.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/check_circle_r_main_white.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/drawable/check_color_black_white.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_alarm_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_cross_info.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_home.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_home_search.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_notice_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_report.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/activity_test.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/dialog_lock_phase.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/fragment_alarm.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/fragment_home.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/fragment_notice.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/item_map_info.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/item_phase_info.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/map_marker_info.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/layout/recycleview_foot.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RuianMobilePolice/app/src/main/res/values/styles.xml">
           <value>
             <set />
           </value>
@@ -78,6 +658,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/TakePicActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/cn/trustway/nb/trustwayutil/TestActivity.java">
           <value>
             <set />
@@ -103,6 +688,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_4.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_frame.xml">
           <value>
             <set />
@@ -113,7 +708,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_takepic.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <value>
             <set />
           </value>
@@ -803,6 +1413,66 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/rootview/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rootview/src/main/java/cn/trustway/nb/rootview/RootView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rootview/src/main/res/drawable/loading_anim.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rootview/src/main/res/layout/a.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/src/main/java/cn/trustway/nb/takepicture/PictureBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/src/main/java/cn/trustway/nb/takepicture/PictureChooseRecycleView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/src/main/java/cn/trustway/nb/takepicture/SquareRelativeLayout.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/src/main/java/cn/trustway/nb/takepicture/WidgetCamera.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/src/main/res/layout/item_picture.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/src/main/res/layout/widget_camera.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/takepicture/src/main/res/values/style.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/trusteayimageselect/build.gradle">
           <value>
             <set />
@@ -863,6 +1533,306 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/arouter/LayoutRoute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/activity/AboutActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/activity/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/activity/MyActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/activityinter/InterDept.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/activityinter/InterMy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/activityinter/InterSku.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/bean/MyBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/model/DeptModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/model/LoginModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/model/MyModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/presenter/DeptPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/presenter/MyPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/auth/presenter/SkuPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activity/AddressShowActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activity/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activity/MyActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activity/ReportAddActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activity/ReportFinishActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activity/ReportInfoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activity/ReportUpdateActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activityinter/InterReportUpdateActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/activityinter/InterUploadImageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/adapter/ReportInfoFlowAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/adapter/ReportListAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/bean/UploadImageBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/config/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/model/ReportLocalDataModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/model/ReportUpdateModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/model/UploadImageModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/func/report/presenter/UploadImagePresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/HttpMethods.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/form/PageForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/form/report/ReportAddForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/form/report/ReportResourceList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/service/DeptService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/service/MyService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/service/ReportService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/net/service/UploadService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/widget/loading/LoadingDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/widget/picturesLoad/DialogPictureShow.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/widget/picturesLoad/PictureRecycleView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/widget/picturesLoad/PicturesAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/widget/picturesLoad/RecycleImageView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/java/cn/trustway/nb/jin_an_report_system/widget/recycle/MyRecycleView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/res/layout/activity_about.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/res/layout/activity_my.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/res/layout/activity_report.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/res/layout/activity_report_info.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/res/layout/item_picture.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/takepicture/src/main/java/cn/trustway/nb/takepicture/PictureChooseRecycleView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/takepicture/src/main/java/cn/trustway/nb/takepicture/WidgetCamera.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/takepicture/src/main/java/cn/trustway/nb/takepicture/WidgetCamera1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/takepicture/src/main/res/layout/widget_camera.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jin-an-report-system-android-client/takepicture/src/main/res/layout/widget_camera1.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/build.gradle">
           <value>
             <set />
@@ -878,12 +1848,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/lishui_yjy/java/cn/trustway/nb/mobilepolice/view/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/AndroidManifest.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/adapter/chat/ChatWithUserAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/apimodel/query/dto/CourtDriveLimitation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/apimodel/query/form/QueryCourtDriveLimitation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/apimodel/query/form/QueryCourtDriveLimitationForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/apimodel/query/form/QueryForceForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/apimodel/query/response/CourtDriveLimitationResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/bluetooth/print/PrintJQ.java">
           <value>
             <set />
           </value>
@@ -913,7 +1918,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/service/ServiceHeartBeat.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/service/ServiceToken.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/service/ServiceViolationUpload.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/sqlite/sqlhelper/SQLiteHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/util/DeptUtil.java">
           <value>
             <set />
           </value>
@@ -998,6 +2023,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/search/SearchDriverActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/view/search/SearchVehicleActivity.java">
           <value>
             <set />
@@ -1043,7 +2073,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/activity/CourtDriveLimitationActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/activity/ViolationVehicleActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/adapter/CourtDriverLimitation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/java/cn/trustway/nb/mobilepolice/violation/adapter/CourtDriverLimitationAdapter.java">
           <value>
             <set />
           </value>
@@ -1133,6 +2178,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/activity_court_drive_limitation.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/activity_qrcode.xml">
           <value>
             <set />
@@ -1148,6 +2203,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/item_court_driver_limitation.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/item_keyboard.xml">
           <value>
             <set />
@@ -1158,7 +2218,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/widget_camera.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/layout/widget_input.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/quanguo/java/cn/trustway/nb/mobilepolice/view/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mobile-police-system-andriod-client/app/src/quanguo/java/cn/trustway/nb/mobilepolice/view/WelcomeActivity1.java">
           <value>
             <set />
           </value>

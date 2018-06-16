@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.trustway.nb.takepicture.SquareRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_picture_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_picture_delete"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="删除"
+        android:textColor="@android:color/white"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:layout_alignBottom="@id/iv_picture_content"
+        android:background="@android:color/darker_gray"/>
+</cn.trustway.nb.takepicture.SquareRelativeLayout>

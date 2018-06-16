@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame/frame.iml" filepath="$PROJECT_DIR$/frame/frame.iml" />
       <module fileurl="file://$PROJECT_DIR$/qrcode/qrcode.iml" filepath="$PROJECT_DIR$/qrcode/qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rootview/rootview.iml" filepath="$PROJECT_DIR$/rootview/rootview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/takepicture/takepicture.iml" filepath="$PROJECT_DIR$/takepicture/takepicture.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,6 @@
 package cn.trustway.nb.trustwayutil;
 
+import android.view.View;
 import android.widget.Toast;
 
 import cn.trustway.nb.frame.view.LazyLoadFragment;
@@ -14,6 +15,11 @@ public class Fragment1 extends LazyLoadFragment {
     @Override
     protected int setContentView() {
         return R.layout.activity_1;
+    }
+
+    @Override
+    protected void initView(View v) {
+
     }
 
     @Override

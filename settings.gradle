@@ -1,1 +1,1 @@
-include ':app', ':core', ':frame', ':qrcode'
+include ':app', ':core', ':frame', ':qrcode', ':rootview', ':takepicture', ':takepicture'

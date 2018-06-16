@@ -25,6 +25,8 @@ public abstract class LazyLoadFragment extends Fragment {
      */
     protected abstract int setContentView();
 
+    protected abstract void initView(View v);
+
     /**
      * 创建时间：2017/11/10
      * 创建者：huzan
@@ -39,12 +41,22 @@ public abstract class LazyLoadFragment extends Fragment {
      */
     protected abstract void stopLoad();
 
+
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+        View inflate = inflater.inflate(setContentView(), container, false);
+        initView(inflate);
+        return inflate;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
         isInit = true;
         isLoad();
-        return inflater.inflate(setContentView(), container, false);
     }
 
     @Override
